@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Divs</title>
+
+        <style> 
+            div {
+                background-color: navy;
+                display: inline-block; 
+                color: cyan;
+                width: 30%;
+                margin-top: 5px;
+                padding: 1em
+            }
+            
+            .divs-inline {
+                display: inline-block;
+                width: 30%
+            }
+
+            h1 {
+                margin: 0;
+                text-align: center;
+            }
+
+            .texto-gris {
+                color: gray;
+            }
+
+            .fondo-rojo {
+                background-color: red;
+
+            }
+
+            #soy-unico-y-detergente {
+                color: blueviolet;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="divs-inline">
+            <h1 class="texto-gris">Este es un Div</h1>
+        </div>
+        <div class="divs-inline">
+            <h1>Este es otro Div</h1>
+        </div>
+        <div class="divs-inline">
+            <h1 class="texto-gris" id="soy-unico-y-detergente">Este es un tercer div</h1>
+        </div>
+        <div style="width: 90.6%">
+            <h1>Hola</h1>
+            <input type="text" placeholder="Usuario"> <br> <br>
+            <input type="text" placeholder="Contraseña"> <br> <br>
+            <select name="" id="">
+                <option "Enero">Enero</option>
+                <option "Febrero">Febrero</option>
+                <option "Marzo">Marzo</option>
+                <option "Abril">Abril</option>
+                <option "Mayo">Mayo</option>
+                <option "Junio">Junio</option>
+                <option "Julio">Julio</option>
+                <option "Agosto">Agosto</option>
+                <option "Septiembre">Septiembre</option>
+                <option "Octubre">Octubre</option>
+                <option "Noviembre">Noviembre</option>
+                <option "Diciembre">Diciembre</option>
+                <input type="checkbox">
+                <button>Enviar</button>
+            </select>
+            <input type="checkbox"> <span>No soy un robot</span>
+        </div>
+    </body>
+</html>
